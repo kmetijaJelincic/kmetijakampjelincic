@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+.img-fluid-costum {
+    max-width: 100%;
+    height: 100px;
+    float: center;
+  }
+  
+.img-responsive {
+    width: auto;
+    height: 150px;
+}
+
+.img-costum {
+width: 100%; /*You can set the dimensions to whatever you want */
+height: 38vw;    
+object-fit: cover;
+display: block;  
+}
+
+@media (max-width: 575.98px) {
+    .img-costum-sm, .img-costum{
+      display: block;
+      width: 100%;
+      height: 50vw;    
+    }
+  }
+@media (max-width: 767.98px) {
+    .img-costum-md, .img-costum-sm, .img-costum{
+        display: block;
+        width: 100%;
+        height: 50vw;    
+    }
+}
+  
+@media (min-width: 992px) {
+    .img-costum-lg, .img-costum-md, .img-costum-sm, .img-costum {
+      display: block;
+      width: 100%;
+      height: 42vw;   
+}
+}
+@media (min-width: 1200px) {
+    .img-costum-xl, .img-costum-lg, .img-costum-md, .img-costum-sm, .img-costum {
+        display: block;
+        width: 100%;
+        height: 32vw;  
+    }
+}
+
+.background-color-indicator li {
+    background-color: #218838;
+
+}
+
+.carousel-indicators-circle li {
+    box-sizing: content-box;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #218838;
+    background-clip: padding-box;
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+    transition: opacity 0.6s ease;
+}
+
+.modal-backdrop {
+    background-color: rgba(0,0,0,.0001) !important;
+}
+
+.text-color {
+    color: #47C6A3;
+}
+
+
+.about-border {
+    display: block;
+    width: 80px;
+    height: 3px;
+    background: #47C6A3;
+    margin: 20px auto;
+}
+
+.table-align-center{
+    vertical-align : middle;
+}
