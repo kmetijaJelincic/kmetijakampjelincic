@@ -2995,7 +2995,7 @@ input[type=button].btn-block {
   color: #212529;
   text-align: left;
   list-style: none;
-  background-color: #212529;
+  background-color: rgb(53 54 58);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -3169,7 +3169,7 @@ input[type=button].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: rgb(53 54 58);
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -3178,7 +3178,7 @@ input[type=button].btn-block {
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #212529;
+  background-color: rgb(53 54 58);
 }
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
