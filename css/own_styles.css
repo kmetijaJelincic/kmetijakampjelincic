@@ -76,7 +76,6 @@ display: block;
     color: #47C6A3;
 }
 
-
 .about-border {
     display: block;
     width: 80px;
@@ -87,4 +86,25 @@ display: block;
 
 .table-align-center{
     vertical-align : middle;
+}
+
+.carousel-control-prev-icon2,
+.carousel-control-next-icon2 {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+}
+
+.carousel-control-next-icon2:after
+{
+  content: '>';
+  font-size: 45px;
+  color: #28a745;
+}
+
+.carousel-control-prev-icon2:after {
+  content: '<';
+  font-size: 45px;
+  color: #28a745;
 }
