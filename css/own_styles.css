@@ -108,3 +108,10 @@ display: block;
   font-size: 45px;
   color: #28a745;
 }
+
+#on-hover:hover {
+  opacity: 0.5;
+  border-radius: 3px !important;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 40%) !important;
+  transition: all 200ms ease-out;
+}
