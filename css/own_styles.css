@@ -115,3 +115,18 @@ display: block;
   box-shadow: 0 0 0 1px rgb(0 0 0 / 40%) !important;
   transition: all 200ms ease-out;
 }
+
+#on-hover_click_button:hover {
+  opacity: 0.8;
+  box-shadow: 0 0 0 1px rgb(0 0 0 / 40%) !important;
+  transition: all 200ms ease-out;
+}
+
+.text-underline-hover {
+  text-decoration: none;
+}
+
+.text-underline-hover:hover {
+  text-decoration: underline;
+}
+

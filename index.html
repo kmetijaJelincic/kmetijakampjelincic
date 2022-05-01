@@ -8,8 +8,6 @@
     <meta name="author" content="Grajfoner Žan"/>
     <title>Kmetija Jelinčič in kamp Jelinc</title>
     <link rel="icon" type="image/x-icon" href="assets/img/logo.ico" />
-    <!-- Font Awesome icons (free version)-->
-    <script src="https://kit.fontawesome.com/09841d2f50.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
     <!-- Lightbox2 -->
@@ -79,7 +77,7 @@
             <h1 class="section-heading text-responsive display-4">Kmetija Jelinčič & kamp Jelinc</h1>
             <br>
            <!-- <p class="section-subheading masthead-subheading text-responsive">Na kmetiji kjer čas drugače teče</p>-->
-            <a class="btn btn-primary btn-l js-scroll-trigger text-font rounded-pill" href="#onas">Preberi več</a>
+            <a id="on-hover_click_button" class="btn btn-primary btn-l js-scroll-trigger text-font rounded-pill" href="#onas">Preberi več</a>
         </div>
     </header>
 
@@ -91,7 +89,7 @@
                 <div class="about-border"></div>
             </div>
             <div class="row">
-                <div class="col-md-6 col-lg-6 justify-content-center d-flex align-items-center">
+                <div class="col-lg-6 justify-content-center d-flex align-items-center">
                     <div class="text-justify">
                         <br />
                             <div class="section-subheading text-muted text-font">
@@ -115,7 +113,7 @@
                     </div>
                 </div>
                 
-                <div class="col-md-6 col-lg-6 justify-content-center d-flex align-items-center pb-2 mb-2">
+                <div class="col-lg-6 justify-content-center d-flex align-items-center pb-2 mb-2">
                     <div id="carouselmodalIndicatorsOnas" class="carousel slide" data-ride="carousel">
                         <ol class="carousel-indicators">
                           <li data-target="#carouselmodalIndicatorsOnas" data-slide-to="0" class="active"></li>
@@ -149,7 +147,7 @@
                 </div>
             </div>
             <div class="mt-2 pt-2">
-                <a class="btn btn-primary btn-l js-scroll-trigger text-font rounded-pill" href="#ponudba">Naša ponudba</a>
+                <a id="on-hover_click_button" class="btn btn-primary btn-l js-scroll-trigger text-font rounded-pill" href="#ponudba">Naša ponudba</a>
             </div>  
         </div>
     </section>
@@ -485,28 +483,73 @@
                                             <a href="assets/img/kamp/hostel_vhod.jpg" data-lightbox="hostel"></a>
                                         </div>
                                         <!-- End -->   
-                                        <!-- Jasa, trš in skala -->
+                                        <!-- Jasa -->
                                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 mb-3">
-                                            <a href="assets/img/kamp/zacetne_slike/jasa.jpg" data-lightbox="ognjisca">
+                                            <a href="assets/img/kamp/jasa/zacetna_jasa-min.jpg" data-lightbox="jasa">
                                             <div id="on-hover" class="bg-white rounded shadow-sm ">
-                                                <img src="assets/img/kamp/zacetne_slike/jasa.jpg" alt="jasa trš skala" class="img-fluid card-img-top" loading="lazy"/>
+                                                <img src="assets/img/kamp/jasa/zacetna_jasa-min.jpg" alt="jasa" class="img-fluid card-img-top" loading="lazy"/>
                                                 <div class="p-3">
                                                     <h5 class="text-center text-dark">
-                                                        Jasa, Trš, Skala
+                                                        Jasa
                                                     </h5>
                                                     <p class="small text-muted text-justify">
-                                                        Pokrita ognjišča z možnostjo preproste prenočitve pod streho. 
+                                                        koliba nad ognjiščem za tri osebe. »Jasa« leži na prvi terasi od reke Soče in je obrnjena na jug. 
+                                                        Sonce jo bo obsijalo šele po poznem zajtrku, zvečer pa bo zadnje žarke pustil prav tu. 
                                                     </p>
                                                 </div>
                                             </div>
                                             </a>
-                                            <a href="assets/img/kamp/jasatrsskala/trs.jpg" data-lightbox="ognjisca"></a>
-                                            <a href="assets/img/kamp/jasatrsskala/skala.jpg" data-lightbox="ognjisca"></a>
+                                            <a href="assets/img/kamp/jasa/odzunaj-min.jpg" data-lightbox="jasa"></a>
+                                            <a href="assets/img/kamp/jasa/noter_1-min.jpg" data-lightbox="jasa"></a>
+                                            <a href="assets/img/kamp/jasa/noter_2-min.jpg" data-lightbox="jasa"></a>
+                                            <a href="assets/img/kamp/jasa/noter_3-min.jpg" data-lightbox="jasa"></a>
+
                                         </div>
                                         <!-- End -->  
+                                        <!-- trš -->
+                                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 mb-3">
+                                            <a href="assets/img/kamp/trs/zacetna_trs-min.jpg" data-lightbox="trs">
+                                            <div id="on-hover" class="bg-white rounded shadow-sm ">
+                                                <img src="assets/img/kamp/trs/zacetna_trs-min.jpg" alt="trš" class="img-fluid card-img-top" loading="lazy"/>
+                                                <div class="p-3">
+                                                    <h5 class="text-center text-dark">
+                                                        Trš
+                                                    </h5>
+                                                    <p class="small text-muted text-justify">
+                                                        koliba nad ognjiščem za pet oseb. »Trš« stoji na obrobju gozda, od tu pa tudi ime zanj, trš ali stara bukev. 
+                                                        V zavetju gozda je spanje še bolj prijetno.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            </a>
+                                            <a href="assets/img/kamp/trs/zunaj1-min.jpg" data-lightbox="trs"></a>
+                                            <a href="assets/img/kamp/trs/noter_1-min.jpg" data-lightbox="trs"></a>
+                                            <a href="assets/img/kamp/trs/noter_2-min.jpg" data-lightbox="trs"></a>
+                                        </div>
+                                        <!-- End --> 
+                                        <!-- skala -->
+                                        <div class="col-xl-3 col-lg-4 col-md-6 col-6 mb-3">
+                                            <a href="assets/img/kamp/skala/zacetna_skala-min.jpg" data-lightbox="skala">
+                                            <div id="on-hover" class="bg-white rounded shadow-sm ">
+                                                <img src="assets/img/kamp/skala/zacetna_skala-min.jpg" alt="skala" class="img-fluid card-img-top" loading="lazy"/>
+                                                <div class="p-3">
+                                                    <h5 class="text-center text-dark">
+                                                        Skala
+                                                    </h5>
+                                                    <p class="small text-muted text-justify">
+                                                        koliba nad ognjiščem za štiri osebe. Ob velikem kamnu je ognjišče in preprosto zavetišče.
+                                                        »Skala« je umaknjen prostor na konce ravnice in v objemu gozda.                                                    
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            </a>
+                                            <a href="assets/img/kamp/skala/noter_1-min.jpg" data-lightbox="skala"></a>
+                                            <a href="assets/img/kamp/skala/noter_2-min.jpg" data-lightbox="skala"></a>
+                                        </div>
+                                        <!-- End --> 
                                         <!-- Brlog -->
                                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 mb-3">
-                                            <a href="assets/img/kamp/brlog/stopnisce.jpg" data-lightbox="brlog">
+                                            <a href="assets/img/kamp/zacetne_slike/brlog.jpg" data-lightbox="brlog">
                                             <div id="on-hover" class="bg-white rounded shadow-sm ">
                                                 <img src="assets/img/kamp/zacetne_slike/brlog.jpg" alt="Brlog" class="img-fluid card-img-top" loading="lazy"/>
                                                 <div class="p-3">
@@ -514,14 +557,15 @@
                                                         Brlog
                                                     </h5>
                                                     <p class="small text-muted text-justify">
-                                                        Zavetišče za eno osebo, na vrhu skale v preprostem suhem zavarovanem zavetju.
-                                                    </p>
+                                                        kot že ime pove, je brlog prostor le za najbolj pogumno oziroma pogumnega. 
+                                                        Na vrhu skale, na katero se povzpnemo po lestvi, nas pričaka pravi medvedji brlog. Majhen, a varen in udoben.                                                    </p>
                                                 </div>
                                             </div>
                                             </a>
                                             <a href="assets/img/kamp/brlog/vhod.jpg" data-lightbox="brlog"></a>
                                             <a href="assets/img/kamp/brlog/zaprto.jpg" data-lightbox="brlog"></a>
-                                            <a href="assets/img/kamp/brlog/odprto.jpg" data-lightbox="brlog"></a>                                        </div>
+                                            <a href="assets/img/kamp/brlog/odprto.jpg" data-lightbox="brlog"></a>                                        
+                                        </div>
                                         <!-- End --> 
                                     </div>
                                 </div>
@@ -623,17 +667,19 @@
                                         <!-- End -->
                                         <!-- dnevna ponudba -->
                                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 mb-3">
-                                            <div class="bg-white rounded shadow-sm">
+                                            <a href="assets/img/domaca_kuhinja/Pecenka.jpg" data-lightbox="dnevna_ponudba">
+                                            <div id="on-hover" class="bg-white rounded shadow-sm">
                                                 <img src="assets/img/domaca_kuhinja/Pecenka.jpg" alt="pecenka" class="img-fluid card-img-top" loading="lazy">
                                                 <div class="p-3">
                                                     <h5 class="text-center text-dark">
                                                         Dnevna ponudba obrokov
                                                     </h5>
-                                                    <p class="small text-muted mb-0">tople jedi</p>
-                                                    <p class="small text-muted mb-0">hladne jedi</p>
-                                                    <p class="small text-muted mb-0">sladice</p>
+                                                    <p class="small text-muted mb-0">tople jedi, hladne jedi, sladice</p>
                                                 </div>
                                             </div>
+                                            </a>
+                                            <a href="assets/img/domaca_kuhinja/narezek.jpg" data-lightbox="dnevna_ponudba"></a>
+                                            <a href="assets/img/domaca_kuhinja/juha.jpg" data-lightbox="dnevna_ponudba"></a>
                                         </div>
                                         <!-- End -->
                                         <!-- Večerja -->
@@ -650,7 +696,7 @@
                                             </div>
                                         </div>
                                         <!-- End -->
-                                        <!-- Večerja -->
+                                        <!-- Kosila za skupine -->
                                         <div class="col-xl-3 col-lg-4 col-md-6 col-6 mb-3">
                                             <div class="bg-white rounded shadow-sm">
                                                 <img src="assets/img/domaca_kuhinja/jagnjetina.jpg" alt="trdi sir" class="img-fluid card-img-top" loading="lazy">
@@ -828,7 +874,7 @@
             </div>
             <div class="font-weight-bold" >
                 <i class="fa fa-download" aria-hidden="true"></i>
-                <a href="./assets/img/cenik kamp,kmetija2022.pdf" download="newfilename">Prenesi cenik</a>
+                <a class="text-underline-hover" href="./assets/img/cenik kamp,kmetija2022.pdf" download="newfilename">Prenesi cenik</a>
             </div>
         </div>
     </section>
@@ -983,7 +1029,7 @@
         <!--Pregled več slik-->
         <div class="col text-center">
             <a href="https://www.facebook.com/turisticnakmetijajelincic/photos/?ref=page_internal"
-                class="btn btn-primary stretched-link rounded-pill ">Oglej si več slik</a>
+              id="on-hover_click_button" class="btn btn-primary stretched-link rounded-pill ">Oglej si več slik</a>
         </div>
     </section>
 
@@ -1017,17 +1063,17 @@
                             </li>
                             <li class="list-group-item border-0 bg-light">
                                 <i class="fa-solid fa-phone mr-3" aria-hidden="true"></i>
-                                <a href="tel:+386 31-753-162">031-753-162 </a> 
+                                <a class="text-underline-hover" href="tel:+386 31-753-162">031-753-162 </a> 
                                 (Ana Jelinčič)
                             </li>
                             <li class="list-group-item border-0 bg-light">
                                 <i class="fa-solid fa-mobile-screen-button mr-3" aria-hidden="true"></i>
-                                <a href="tel:+386 5-388-95-10">05-388-95-10 </a> 
+                                <a class="text-underline-hover" href="tel:+386 5-388-95-10">05-388-95-10 </a> 
                                 (Recepcija)
                             </li>
                             <li class="list-group-item border-0 bg-light">
                                 <i class="fa-solid fa-envelope mr-3" aria-hidden="true"></i>
-                                <a href="mailto:kmetija.kamp.jelincic@gmail.com">kmetija.kamp.jelincic@gmail.com</a>
+                                <a class="text-underline-hover" href="mailto:kmetija.kamp.jelincic@gmail.com">kmetija.kamp.jelincic@gmail.com</a>
                             </li>
                             <li class="list-group-item border-0 bg-light">
                                 <img  class="mr-3" width="20px" height="20px" src="assets/img/kvaliteta_logo/Jabolka_ico.png" loading="lazy" >
@@ -1090,11 +1136,11 @@
                     <img class="img-fluid m-2 p-2" src="assets/img/kvaliteta_logo/tnp_kv.png" alt="tnp kakovost" loading="lazy" >
                 </div>
                 <div class="col-lg-2 col-md-2 col">
-                    <img class="img-fluid m-2 p-2" src="assets/img/kvaliteta_logo/si_eko_kmetijstvo.png" loading="lazy" 
+                    <img class="img-fluid m-2 p-2" src="assets/img/kvaliteta_logo/si_eko_kmetijstvo.png" alt="eko kmetijstvo" loading="lazy" 
                     alt="Ekološka kmetija">
                 </div>
                 <div class="col-lg-2 col-md-2 col">
-                    <img class="img-fluid m-2 p-2" src="assets/img/kvaliteta_logo/i-feel-slovenia.png" loading="lazy" 
+                    <img class="img-fluid m-2 p-2" src="assets/img/kvaliteta_logo/i-feel-slovenia.png" alt="feel Slovenija" loading="lazy" 
                     alt="Feel slovenia">
                 </div>
             </div>
@@ -1140,7 +1186,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
-        
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://kit.fontawesome.com/09841d2f50.js" crossorigin="anonymous"></script>    
 
 </body>
 
