@@ -10,8 +10,6 @@
     <link rel="icon" type="image/x-icon" href="assets/img/logo.ico" />
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="./js/gallerydata.js"></script>
-    <script src="./js/header.js" type="text/javascript"></script>
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet"
@@ -25,7 +23,50 @@
 </head>
 <body  class="text-font" id="page-top">
     <!-- Navigation zgornji menu-->
-    <header-component></header-component>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav" style="background-color: #212529;">
+        <div class="container">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top"><img class="img-fluid" src="assets/img/logo-transparent.png" alt="" /></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+                Menu
+                <i class="fas fa-bars ml-1"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav text-uppercase ml-auto font-weight-bold">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          About
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item nav-link js-scroll-trigger font-weight-bold" href="index_en.html#onas" onclick='check()'>About us</a>
+                          <a class="dropdown-item nav-link js-scroll-trigger font-weight-bold" href="index_en.html#zgodba" onclick='check()'>Our story</a>
+                        </div>                        
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          Offer
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item nav-link js-scroll-trigger font-weight-bold" href="index_en.html#ponudba" onclick='check()'>our Offer</a>
+                          <a class="dropdown-item nav-link js-scroll-trigger font-weight-bold" href="index_en.html#cenik" onclick='check()'>Price-list</a>
+                        </div>                        
+                    </li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index_en.html#ekipa">Team</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index_en.html#galerija">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index_en.html#contact">Contact</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          EN
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                          <a class="dropdown-item nav-link font-weight-bold" href="galerija_ivo.html">SL</a>
+                        </div>                        
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
     <!-- Opis v menuju-->
     <header>
@@ -39,8 +80,1046 @@
                 <br />
             </div>
 
-            <div class="gallery row" id="div">
-
+            <div class="gallery row">
+                <a href="assets/img/gallery_ivo/001 Zima v koritih.jpg" data-lightbox="galerija-ivo" data-title="Winter in the gorge
+                (58 cm * 75 cm)">
+                    <figure class="picture"
+                            data-title="Winter in the gorge"
+                            data-url="assets/img/gallery_ivo/001 Zima v koritih.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/002 Vrsnik.jpg" data-lightbox="galerija-ivo" data-title="Vrsnik (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Vrsnik"
+                            data-url="assets/img/gallery_ivo/002 Vrsnik.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/003 Soca 1.jpg" data-lightbox="galerija-ivo" data-title="Soca 1 (50 cm * 100 cm)">
+                    <figure class="picture"
+                            data-title="Soca 1"
+                            data-url="assets/img/gallery_ivo/003 Soca 1.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/004 Soca 2.jpg" data-lightbox="galerija-ivo" data-title="Soca 2 (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Soca 2"
+                            data-url="assets/img/gallery_ivo/004 Soca 2.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/005 Korita 1.jpg" data-lightbox="galerija-ivo" data-title="Gorge 1 (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Gorge 1"
+                            data-url="assets/img/gallery_ivo/005 Korita 1.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/006 Slap pod Zjabci.jpg" data-lightbox="galerija-ivo" data-title="Waterfall under Zjabci (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Waterfall under Zjabci"
+                            data-url="assets/img/gallery_ivo/006 Slap pod Zjabci.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/007 Potok Vrsnik.jpg" data-lightbox="galerija-ivo" data-title="Stream Vrsnik (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Stream Vrsnik"
+                            data-url="assets/img/gallery_ivo/007 Potok Vrsnik.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/008 Igra kapljic.jpg" data-lightbox="galerija-ivo" data-title="Game of drops (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Game of Drops (Dry Stream)"
+                            data-url="assets/img/gallery_ivo/008 Igra kapljic.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/009 Peklenski smaragdni vrtinec.jpg" data-lightbox="galerija-ivo" data-title="A hell of an emerald vortex (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="A hell of an emerald vortex"
+                            data-url="assets/img/gallery_ivo/009 Peklenski smaragdni vrtinec.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/010 Ples vode v brzicah.jpg" data-lightbox="galerija-ivo" data-title="Rapids water dance (60 cm * 80 cm)">
+                    <figure class="picture"
+                            data-title="Rapids water dance"
+                            data-url="assets/img/gallery_ivo/010 Ples vode v brzicah.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/011 Globocine tolmuna.jpg" data-lightbox="galerija-ivo" data-title="The emerald depths (75 cm * 57 cm)">
+                    <figure class="picture"
+                            data-title="The emerald depths"
+                            data-url="assets/img/gallery_ivo/011 Globocine tolmuna.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/012 Krog zivljenja.jpg" data-lightbox="galerija-ivo" data-title="Circle of lige (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Circle of Life (Soča)"
+                            data-url="assets/img/gallery_ivo/012 Krog zivljenja.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/013 Vzbuh.jpg" data-lightbox="galerija-ivo" data-title="Eruption (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Eruption"
+                            data-url="assets/img/gallery_ivo/013 Vzbuh.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/014 Soca 3.jpg" data-lightbox="galerija-ivo" data-title="Soca 3 (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Soca 3"
+                            data-url="assets/img/gallery_ivo/014 Soca 3.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/015 Po nevihti.jpg" data-lightbox="galerija-ivo" data-title="After a storm (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="After a storm"
+                            data-url="assets/img/gallery_ivo/015 Po nevihti.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/016 1000 in 1 kapljica.jpg" data-lightbox="galerija-ivo" data-title="1000 and 1 droplet (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="1000 and 1 droplet"
+                            data-url="assets/img/gallery_ivo/016 1000 in 1 kapljica.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/017 Globina duse.jpg" data-lightbox="galerija-ivo" data-title="Depths of the soul (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Depths of the soul (Soča riverbed)"
+                            data-url="assets/img/gallery_ivo/017 Globina duse.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/018 Zapotoski slap.jpg" data-lightbox="galerija-ivo" data-title="Zapotoški waterfall (45 cm * 60 cm)">
+                    <figure class="picture"
+                            data-title="Zapotoški waterfall"
+                            data-url="assets/img/gallery_ivo/018 Zapotoski slap.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/019 Ledene svece.jpg" data-lightbox="galerija-ivo" data-title="Ice candles above the surface (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Ice candles above the surface"
+                            data-url="assets/img/gallery_ivo/019 Ledene svece.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/020 Ledeni kristali.jpg" data-lightbox="galerija-ivo" data-title="Ice crystals (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Ice crystals"
+                            data-url="assets/img/gallery_ivo/020 Ledeni kristali.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/021 Vhod v mala soska korita.jpg" data-lightbox="galerija-ivo" data-title="Entrance to small Soška gorge (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Entrance to small Soška gorge"
+                            data-url="assets/img/gallery_ivo/021 Vhod v mala soska korita.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/022 Tolmun.jpg" data-lightbox="galerija-ivo" data-title="Pool (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Pool (Mostniška gorge)"
+                            data-url="assets/img/gallery_ivo/022 Tolmun.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/023 Potok Vrsnik.jpg" data-lightbox="galerija-ivo" data-title="Stream Vrstnik (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Stream Vrstnik"
+                            data-url="assets/img/gallery_ivo/023 Potok Vrsnik.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/024 Tromba.jpg" data-lightbox="galerija-ivo" data-title="Trumpet (35 cm * 45 cm)">
+                    <figure class="picture"
+                            data-title="Trumpet (tornado)"
+                            data-url="assets/img/gallery_ivo/024 Tromba.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/025 Vrtinec.jpg" data-lightbox="galerija-ivo" data-title="Vortex (35 cm * 45 cm)">
+                    <figure class="picture"
+                            data-title="Vortex"
+                            data-url="assets/img/gallery_ivo/025 Vrtinec.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/026 Mora.jpg" data-lightbox="galerija-ivo" data-title="Nightmare (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Nightmare"
+                            data-url="assets/img/gallery_ivo/026 Mora.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/027  Crno bela reka.jpg" data-lightbox="galerija-ivo" data-title="Black white river (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Black white river"
+                            data-url="assets/img/gallery_ivo/027  Crno bela reka.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/028 Igra valov.jpg" data-lightbox="galerija-ivo" data-title="A game of waves (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="A game of waves"
+                            data-url="assets/img/gallery_ivo/028 Igra valov.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/029 Globine voda.jpg" data-lightbox="galerija-ivo" data-title="Water depths (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Water depths"
+                            data-url="assets/img/gallery_ivo/029 Globine voda.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/030 Globine.jpg" data-lightbox="galerija-ivo" data-title="Depths (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Depths"
+                            data-url="assets/img/gallery_ivo/030 Globine.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/031 Ples valov.jpg" data-lightbox="galerija-ivo" data-title="Dancing waves (24 cm * 30 cm)">
+                    <figure class="picture"
+                            data-title="Dancing waves"
+                            data-url="assets/img/gallery_ivo/031 Ples valov.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/032 V ledenem oklepu.jpg" data-lightbox="galerija-ivo" data-title="In ice armor (25 cm * 57 cm)">
+                    <figure class="picture"
+                            data-title="In ice armor"
+                            data-url="assets/img/gallery_ivo/032 V ledenem oklepu.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/033 Ledene svece 2.jpg" data-lightbox="galerija-ivo" data-title="Ice candles 2 (25 cm * 57 cm)">
+                    <figure class="picture"
+                            data-title="Ice candles 2"
+                            data-url="assets/img/gallery_ivo/033 Ledene svece 2.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/034 Klic Pozejdona.jpg" data-lightbox="galerija-ivo" data-title="Poseidon's call (90 cm * 90 cm)">
+                    <figure class="picture"
+                            data-title="Poseidon's call"
+                            data-url="assets/img/gallery_ivo/034 Klic Pozejdona.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/035 Energija kamna.jpg" data-lightbox="galerija-ivo" data-title="Stone energy (80 cm * 80 cm)">
+                    <figure class="picture"
+                            data-title="Stone energy"
+                            data-url="assets/img/gallery_ivo/035 Energija kamna.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/036 Toncev Tonf.jpg" data-lightbox="galerija-ivo" data-title="Tonščev Tonf (80 cm * 100 cm)">
+                    <figure class="picture"
+                            data-title="Tonščev Tonf (Lepena)"
+                            data-url="assets/img/gallery_ivo/036 Toncev Tonf.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/037 Gorski skrat.jpg" data-lightbox="galerija-ivo" data-title="Mountain dwarf in the wall (60 cm * 80 cm)">
+                    <figure class="picture"
+                            data-title="Mountain dwarf in the wall"
+                            data-url="assets/img/gallery_ivo/037 Gorski skrat.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/038 Zapolden 1.jpg" data-lightbox="galerija-ivo" data-title="Zapolden (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Zapolden (End of Trenta)"
+                            data-url="assets/img/gallery_ivo/038 Zapolden 1.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/039 Trentarski plot.jpg" data-lightbox="galerija-ivo" data-title="Trentar fence (60 cm * 80 cm)">
+                    <figure class="picture"
+                            data-title="Trentar fence"
+                            data-url="assets/img/gallery_ivo//039 Trentarski plot.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/040 Kosec.jpg" data-lightbox="galerija-ivo" data-title="Mower (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Mower"
+                            data-url="assets/img/gallery_ivo/040 Kosec.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/041 Pomlad na polju.jpg" data-lightbox="galerija-ivo" data-title="Spring on field (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Spring on field"
+                            data-url="assets/img/gallery_ivo/041 Pomlad na polju.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/042 Bavški Grintavec.jpg" data-lightbox="galerija-ivo" data-title="Autumn grass (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Autumn grass (Bavški Grintavec)"
+                            data-url="assets/img/gallery_ivo/042 Bavški Grintavec.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/043 Kanjavec.jpg" data-lightbox="galerija-ivo" data-title="View on Kanjavec (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="View on Kanjavec (iz Zadnjice)"
+                            data-url="assets/img/gallery_ivo/043 Kanjavec.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/044 Jesen v Zadnji Trenti.jpg" data-lightbox="galerija-ivo" data-title="Autumn in the end of Trenta (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Autumn in the end of Trenta"
+                            data-url="assets/img/gallery_ivo/044 Jesen v Zadnji Trenti.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/045 Tozbar in medved.jpg" data-lightbox="galerija-ivo" data-title="Tožbar Meeting a bear (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Tožbar Meeting a bear"
+                            data-url="assets/img/gallery_ivo/045 Tozbar in medved.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/046 Smrtni boj v mesecini.jpg" data-lightbox="galerija-ivo" data-title="Death fight in the moonlight (60 cm * 80 cm)">
+                    <figure class="picture"
+                            data-title="Death fight in the moonlight"
+                            data-url="assets/img/gallery_ivo/046 Smrtni boj v mesecini.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/047 Ogenj.jpg" data-lightbox="galerija-ivo" data-title="Fire (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Fire"
+                            data-url="assets/img/gallery_ivo/047 Ogenj.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/048 Pohlep.jpg" data-lightbox="galerija-ivo" data-title="Greed (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Greed"
+                            data-url="assets/img/gallery_ivo/048 Pohlep.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/049 Zlatorog.jpg" data-lightbox="galerija-ivo" data-title="Zlatorog (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Zlatorog"
+                            data-url="assets/img/gallery_ivo/049 Zlatorog.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/050 Pravljica o Zlatorogu.jpg" data-lightbox="galerija-ivo" data-title="Story about Zlatorogu (60 cm * 80 cm)">
+                    <figure class="picture"
+                            data-title="Story about Zlatorogu"
+                            data-url="assets/img/gallery_ivo/050 Pravljica o Zlatorogu.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/051 Boj Rusevca.jpg" data-lightbox="galerija-ivo" data-title="Battle of Ruševc (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Battle of Ruševc"
+                            data-url="assets/img/gallery_ivo/051 Boj Rusevca.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/052 Ranjeni jelen.jpg" data-lightbox="galerija-ivo" data-title="Wounded deer (55 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Wounded deer"
+                            data-url="assets/img/gallery_ivo/052 Ranjeni jelen.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/053 Volkovi.jpg" data-lightbox="galerija-ivo" data-title="Wolfs (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Wolfs"
+                            data-url="assets/img/gallery_ivo/053 Volkovi.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/054 Tulipan1.jpg" data-lightbox="galerija-ivo" data-title="Tulips 1 (50 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Tulips 1"
+                            data-url="assets/img/gallery_ivo/054 Tulipan1.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/055 Tulipan 2.jpg" data-lightbox="galerija-ivo" data-title="Tulips 2 (50 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Tulips 2"
+                            data-url="assets/img/gallery_ivo/055 Tulipan 2.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/056 Belo rdeča perunika.jpg" data-lightbox="galerija-ivo" data-title="White and red iris (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="White and red iris"
+                            data-url="assets/img/gallery_ivo/056 Belo rdeča perunika.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/057 Rdeča perunika 1.jpg" data-lightbox="galerija-ivo" data-title="Red iris (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Red iris"
+                            data-url="assets/img/gallery_ivo/057 Rdeča perunika 1.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/058 Bela perunika.jpg" data-lightbox="galerija-ivo" data-title="White iris (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="White iris"
+                            data-url="assets/img/gallery_ivo/058 Bela perunika.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/059 Vijola perunika .jpg" data-lightbox="galerija-ivo" data-title="Purple iris (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Purple iris"
+                            data-url="assets/img/gallery_ivo/059 Vijola perunika .jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/060 Sinje modra perunika.jpg" data-lightbox="galerija-ivo" data-title="Blue iris (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Blue iris"
+                            data-url="assets/img/gallery_ivo/060 Sinje modra perunika.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/061 Eksplozija.jpg" data-lightbox="galerija-ivo" data-title="Explosion (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Explosion"
+                            data-url="assets/img/gallery_ivo/061 Eksplozija.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/062 Avtoportet.jpg" data-lightbox="galerija-ivo" data-title="Self-portrait (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Self-portrait"
+                            data-url="assets/img/gallery_ivo/062 Avtoportet.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/063 Koline.jpg" data-lightbox="galerija-ivo" data-title="Slaughter (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Slaughter"
+                            data-url="assets/img/gallery_ivo/063 Koline.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/064 Divji petelin.jpg" data-lightbox="galerija-ivo" data-title="Wild Rooster (37 cm * 49 cm)">
+                    <figure class="picture"
+                            data-title="Wild Rooster"
+                            data-url="assets/img/gallery_ivo/064 Divji petelin.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/065 Petelinji boj.jpg" data-lightbox="galerija-ivo" data-title="Rooster fight (50 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Rooster fight"
+                            data-url="assets/img/gallery_ivo/065 Petelinji boj.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/066 Plesalke.jpg" data-lightbox="galerija-ivo" data-title="Dancers (50 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Dancers"
+                            data-url="assets/img/gallery_ivo/066 Plesalke.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/067 Oblaki so rdeci.jpg" data-lightbox="galerija-ivo" data-title="Red clouds (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Red clouds"
+                            data-url="assets/img/gallery_ivo/067 Oblaki so rdeci.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/068 50 odtenkov modre.jpg" data-lightbox="galerija-ivo" data-title="50 shades of blue (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="50 shades of blue"
+                            data-url="assets/img/gallery_ivo/068 50 odtenkov modre.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/069 Merjasec.jpg" data-lightbox="galerija-ivo" data-title="Wild boar (42 cm * 56 cm)">
+                    <figure class="picture"
+                            data-title="Wild boar"
+                            data-url="assets/img/gallery_ivo/069 Merjasec.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/070-072 3 v 1.jpg" data-lightbox="galerija-ivo" data-title="3 in 1 (20 cm * 60 cm)">
+                    <figure class="picture"
+                            data-title="3 in 1"
+                            data-url="assets/img/gallery_ivo/070-072 3 v 1.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/073 Manjkajoci clen.jpg" data-lightbox="galerija-ivo" data-title="Missing piece (20 cm * 60 cm)">
+                    <figure class="picture"
+                            data-title="Missing piece"
+                            data-url="assets/img/gallery_ivo/073 Manjkajoci clen.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/074 Plameni pozara.jpg" data-lightbox="galerija-ivo" data-title="Fire / Flames (30 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Fire / Flames"
+                            data-url="assets/img/gallery_ivo/074 Plameni pozara.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/075 Rudi Kogej.jpg" data-lightbox="galerija-ivo" data-title="Rudi Kogej (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Rudi Kogej (academic painter)"
+                            data-url="assets/img/gallery_ivo/075 Rudi Kogej.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/076 Ob kozarcku.jpg" data-lightbox="galerija-ivo" data-title="By the glass (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="By the glass"
+                            data-url="assets/img/gallery_ivo/076 Ob kozarcku.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/077 Dvolicnost.jpg" data-lightbox="galerija-ivo" data-title="Two faced (30 cm * 60 cm)">
+                    <figure class="picture"
+                            data-title="Two faced"
+                            data-url="assets/img/gallery_ivo/077 Dvolicnost.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/078 Moz v zelenem.jpg" data-lightbox="galerija-ivo" data-title="Men in green (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Men in green"
+                            data-url="assets/img/gallery_ivo/078 Moz v zelenem.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/079 Svedrar Oglar.jpg" data-lightbox="galerija-ivo" data-title="Svedrar, oglar (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Svedrar, oglar"
+                            data-url="assets/img/gallery_ivo/079 Svedrar Oglar.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/080 Snezni metez 1.jpg" data-lightbox="galerija-ivo" data-title="Snow storm 1 (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Snow storm 1"
+                            data-url="assets/img/gallery_ivo/080 Snezni metez 1.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/081 Snezni metez 2.jpg" data-lightbox="galerija-ivo" data-title="Snow storm 2 (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Snow storm 2"
+                            data-url="assets/img/gallery_ivo/081 Snezni metez 2.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/082 Opoldanski počitek.jpg" data-lightbox="galerija-ivo" data-title="Noon rest (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Noon rest"
+                            data-url="assets/img/gallery_ivo/082 Opoldanski počitek.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/083 Zahod nad Triglavom.jpg" data-lightbox="galerija-ivo" data-title="West over Triglavom (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="West over Triglavom"
+                            data-url="assets/img/gallery_ivo/083 Zahod nad Triglavom.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/084 Odsev.jpg" data-lightbox="galerija-ivo" data-title="Odsev (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Reflection (Kriška jezera)"
+                            data-url="assets/img/gallery_ivo/084 Odsev.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/085 Trentarska koca.jpg" data-lightbox="galerija-ivo" data-title="Trenta hut (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Trenta hut"
+                            data-url="assets/img/gallery_ivo/085 Trentarska koca.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/086 Odsev v vodi.jpg" data-lightbox="galerija-ivo" data-title="Reflection in water (30 cm * 30 cm)">
+                    <figure class="picture"
+                            data-title="Reflection in water"
+                            data-url="assets/img/gallery_ivo/086 Odsev v vodi.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/087 Mesecina.jpg" data-lightbox="galerija-ivo" data-title="Moonlight (25 cm * 30 cm)">
+                    <figure class="picture"
+                            data-title="Moonlight"
+                            data-url="assets/img/gallery_ivo/087 Mesecina.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/088 Kri po zilah.jpg" data-lightbox="galerija-ivo" data-title="Blood in the veins (24 cm * 30 cm)">
+                    <figure class="picture"
+                            data-title="Blood in the veins"
+                            data-url="assets/img/gallery_ivo/088 Kri po zilah.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/089 Ogenj.jpg" data-lightbox="galerija-ivo" data-title="Fire 2 (20 cm * 25 cm)">
+                    <figure class="picture"
+                            data-title="Fire 2"
+                            data-url="assets/img/gallery_ivo/089 Ogenj.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/090 Val.jpg" data-lightbox="galerija-ivo" data-title="Wave (24 cm * 30 cm)">
+                    <figure class="picture"
+                            data-title="Wave"
+                            data-url="assets/img/gallery_ivo/090 Val.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/091 Valovi.jpg" data-lightbox="galerija-ivo" data-title="Waves (24 cm * 30 cm)">
+                    <figure class="picture"
+                            data-title="Waves"
+                            data-url="assets/img/gallery_ivo/091 Valovi.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/092 Petelin na gnoju.jpg" data-lightbox="galerija-ivo" data-title="Rooster on manure (24 cm * 30 cm)">
+                    <figure class="picture"
+                            data-title="Rooster on manure"
+                            data-url="assets/img/gallery_ivo/092 Petelin na gnoju.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/093 Soncni zahod.jpg" data-lightbox="galerija-ivo" data-title="Sunset (22 cm * 31 cm)">
+                    <figure class="picture"
+                            data-title="Sunset"
+                            data-url="assets/img/gallery_ivo/093 Soncni zahod.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/094 Nocna straza.jpg" data-lightbox="galerija-ivo" data-title="Night watch (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Night watch"
+                            data-url="assets/img/gallery_ivo/094 Nocna straza.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/095 Vecerni ave.jpg" data-lightbox="galerija-ivo" data-title="Evening ave (40 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Evening ave"
+                            data-url="assets/img/gallery_ivo/095 Vecerni ave.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/096 Kontrasti.jpg" data-lightbox="galerija-ivo" data-title="Contrasts (40 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Contrasts"
+                            data-url="assets/img/gallery_ivo/096 Kontrasti.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/097 Parkelj.jpg" data-lightbox="galerija-ivo" data-title="Krampus (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Krampus"
+                            data-url="assets/img/gallery_ivo/097 Parkelj.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/098 Izven konteksta.jpg" data-lightbox="galerija-ivo" data-title="Out of context (50 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Out of context"
+                            data-url="assets/img/gallery_ivo/098 Izven konteksta.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/099 Moz iz Zajence.jpg" data-lightbox="galerija-ivo" data-title="Men of Zajence (16 cm * 25 cm)">
+                    <figure class="picture"
+                            data-title="Men of Zajence"
+                            data-url="assets/img/gallery_ivo/099 Moz iz Zajence.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/100 Trentar.jpg" data-lightbox="galerija-ivo" data-title="Trentar (16 cm * 25 cm)">
+                    <figure class="picture"
+                            data-title="Trentar"
+                            data-url="assets/img/gallery_ivo/100 Trentar.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/101 Krivopetnice 1.jpg" data-lightbox="galerija-ivo" data-title="Krivopetnice 1 (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Krivopetnice 1"
+                            data-url="assets/img/gallery_ivo/101 Krivopetnice 1.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/102 Krivopetnice 2.jpg" data-lightbox="galerija-ivo" data-title="Krivopetnice 2 (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Krivopetnice 2"
+                            data-url="assets/img/gallery_ivo/102 Krivopetnice 2.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/103 Jutrnje petje petelina.jpg" data-lightbox="galerija-ivo" data-title="Morning rooster singing (40 cm * 60 cm)">
+                    <figure class="picture"
+                            data-title="Morning rooster singing"
+                            data-url="assets/img/gallery_ivo/103 Jutrnje petje petelina.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/104 Bavški Grintavec.jpg" data-lightbox="galerija-ivo" data-title="Pogled na Bavški Grintavec (40 cm * 60 cm)">
+                    <figure class="picture"
+                            data-title="Pogled na Bavški Grintavec (Zapolden)"
+                            data-url="assets/img/gallery_ivo/104 Bavški Grintavec.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/105 Makovo polje.jpg" data-lightbox="galerija-ivo" data-title="Poopy field (40 cm * 60 cm)">
+                    <figure class="picture"
+                            data-title="Poopy field"
+                            data-url="assets/img/gallery_ivo/105 Makovo polje.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/106 Mamin kruh.jpg" data-lightbox="galerija-ivo" data-title="Mothers bread (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Mothers bread"
+                            data-url="assets/img/gallery_ivo/106 Mamin kruh.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/107 Pogon.jpg" data-lightbox="galerija-ivo" data-title="Drive (48 cm * 68 cm)">
+                    <figure class="picture"
+                            data-title="Drive"
+                            data-url="assets/img/gallery_ivo/107 Pogon.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/108 Ivje.jpg" data-lightbox="galerija-ivo" data-title="Ivje (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Ivje"
+                            data-url="assets/img/gallery_ivo/108 Ivje.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/109 Vrba.jpg" data-lightbox="galerija-ivo" data-title="Vrba (57 cm * 75 cm)">
+                    <figure class="picture"
+                            data-title="Vrba"
+                            data-url="assets/img/gallery_ivo/109 Vrba.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/110 Korita vrsnika.jpg" data-lightbox="galerija-ivo" data-title="Gorge Vrsnika (60 cm * 80 cm)">
+                    <figure class="picture"
+                            data-title="Gorge Vrsnika"
+                            data-url="assets/img/gallery_ivo/110 Korita vrsnika.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/111 Wrharjenje.jpg" data-lightbox="galerija-ivo" data-title="Wrharjenje (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Wrharjenje"
+                            data-url="assets/img/gallery_ivo/111 Wrharjenje.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/112 Koscev pogled.jpg" data-lightbox="galerija-ivo" data-title="Koščev view (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Koščev view"
+                            data-url="assets/img/gallery_ivo/112 Koscev pogled.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/113 Katedrala.jpg" data-lightbox="galerija-ivo" data-title="Cathedral (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Cathedral"
+                            data-url="assets/img/gallery_ivo/113 Katedrala.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/114 Simfonija.jpg" data-lightbox="galerija-ivo" data-title="Symphony (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Symphony"
+                            data-url="assets/img/gallery_ivo/114 Simfonija.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/115 Vecerna zarja.jpg" data-lightbox="galerija-ivo" data-title="Evening dawn (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Evening dawn"
+                            data-url="assets/img/gallery_ivo/115 Vecerna zarja.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/116 Odsev neba v vodi.jpg" data-lightbox="galerija-ivo" data-title="Reflection of the sky in the water (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Reflection of the sky in the water"
+                            data-url="assets/img/gallery_ivo/116 Odsev neba v vodi.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/117 Izvir Tolminke.jpg" data-lightbox="galerija-ivo" data-title="Source of Tolminke (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Source of Tolminke"
+                            data-url="assets/img/gallery_ivo/117 Izvir Tolminke.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/118 Trenta.jpg" data-lightbox="galerija-ivo" data-title="Trenta (40 cm * 60 cm)">
+                    <figure class="picture"
+                            data-title="Trenta"
+                            data-url="assets/img/gallery_ivo/118 Trenta.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/119 Temno modra perunika.jpg" data-lightbox="galerija-ivo" data-title="Dark blue iris (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Dark blue iris"
+                            data-url="assets/img/gallery_ivo/119 Temno modra perunika.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/120 Ognjena perunika.jpg" data-lightbox="galerija-ivo" data-title="Flame iris (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Flame iris"
+                            data-url="assets/img/gallery_ivo/120 Ognjena perunika.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/121 Rumena perunika.jpg" data-lightbox="galerija-ivo" data-title="Yellow iris (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Yellow iris"
+                            data-url="assets/img/gallery_ivo/121 Rumena perunika.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/122 Rdeca perunika 2.jpg" data-lightbox="galerija-ivo" data-title="Red iris (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Red iris"
+                            data-url="assets/img/gallery_ivo/122 Rdeca perunika 2.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/123 Vijoličasta perunika.jpg" data-lightbox="galerija-ivo" data-title="Purple iris (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Purple iris"
+                            data-url="assets/img/gallery_ivo/123 Vijoličasta perunika.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/124 Zima.jpg" data-lightbox="galerija-ivo" data-title="Winter day (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Winter day"
+                            data-url="assets/img/gallery_ivo/124 Zima.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/125 Bolecina.jpg" data-lightbox="galerija-ivo" data-title="Pain (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Pain"
+                            data-url="assets/img/gallery_ivo/125 Bolecina.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/126 Moc volje.jpg" data-lightbox="galerija-ivo" data-title="Will power (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Will power"
+                            data-url="assets/img/gallery_ivo/126 Moc volje.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/127 Ogenj 2.jpg" data-lightbox="galerija-ivo" data-title="Fire 2 (50 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Fire 2"
+                            data-url="assets/img/gallery_ivo/127 Ogenj 2.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/128 Medvedovo latje.jpg" data-lightbox="galerija-ivo" data-title="Bears latje (23 cm * 34 cm)">
+                    <figure class="picture"
+                            data-title="Bears latje"
+                            data-url="assets/img/gallery_ivo/128 Medvedovo latje.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/129 Osamelec.jpg" data-lightbox="galerija-ivo" data-title="Loner (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Loner"
+                            data-url="assets/img/gallery_ivo/129 Osamelec.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/130 Turerjeva domacija.jpg" data-lightbox="galerija-ivo" data-title="Turerjeva homestead (31 cm * 22 cm)">
+                    <figure class="picture"
+                            data-title="Turerjeva homestead"
+                            data-url="assets/img/gallery_ivo/130 Turerjeva domacija.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/131 Viharnik.jpg" data-lightbox="galerija-ivo" data-title="Storm (23 cm * 30 cm)">
+                    <figure class="picture"
+                            data-title="Storm"
+                            data-url="assets/img/gallery_ivo/131 Viharnik.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/132 Na sotoču.jpg" data-lightbox="galerija-ivo" data-title="At the confluence (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="At the confluence"
+                            data-url="assets/img/gallery_ivo/132 Na sotoču.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/133 Ob potoku.jpg" data-lightbox="galerija-ivo" data-title="By the stream (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="By the stream"
+                            data-url="assets/img/gallery_ivo/133 Ob potoku.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/134 Globina Tolmuna.jpg" data-lightbox="galerija-ivo" data-title="Pool depth (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Pool depth"
+                            data-url="assets/img/gallery_ivo/134 Globina Tolmuna.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/135 Jutro.jpg" data-lightbox="galerija-ivo" data-title="Morning 1 (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Morning 1"
+                            data-url="assets/img/gallery_ivo/135 Jutro.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/136 Izvor Vrsnika.jpg" data-lightbox="galerija-ivo" data-title="Source Vrsnika (35 cm * 45 cm)">
+                    <figure class="picture"
+                            data-title="Source Vrsnika"
+                            data-url="assets/img/gallery_ivo/136 Izvor Vrsnika.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/137 Globina.jpg" data-lightbox="galerija-ivo" data-title="Depths (34 cm * 44 cm)">
+                    <figure class="picture"
+                            data-title="Depths"
+                            data-url="assets/img/gallery_ivo/137 Globina.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/138 Jutro 2.jpg" data-lightbox="galerija-ivo" data-title="Morning 2 (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Morning 2"
+                            data-url="assets/img/gallery_ivo/138 Jutro 2.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/139 Jesen.jpg" data-lightbox="galerija-ivo" data-title="Autumn (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Autumn"
+                            data-url="assets/img/gallery_ivo/139 Jesen.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/140 Izdelovalec kambe.jpg" data-lightbox="galerija-ivo" data-title="Kamba maker (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Kamba maker"
+                            data-url="assets/img/gallery_ivo/140 Izdelovalec kambe.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/141 Cokle.jpg" data-lightbox="galerija-ivo" data-title="Cokle (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Cokle"
+                            data-url="assets/img/gallery_ivo/141 Cokle.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/142 Crna kuhinja 2.jpg" data-lightbox="galerija-ivo" data-title="Black kitchen (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Black kitchen"
+                            data-url="assets/img/gallery_ivo/142 Crna kuhinja 2.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/143 Predica.jpg" data-lightbox="galerija-ivo" data-title="Predica (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Predica"
+                            data-url="assets/img/gallery_ivo/143 Predica.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/144 Petje divjega petelina.jpg" data-lightbox="galerija-ivo" data-title="Wild rooster singing (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Wild rooster singing"
+                            data-url="assets/img/gallery_ivo/144 Petje divjega petelina.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/145 Alenka in Bostjan.jpg" data-lightbox="galerija-ivo" data-title="Alenka and Boštjan (40 cm * 60 cm)">
+                    <figure class="picture"
+                            data-title="Alenka and Boštjan"
+                            data-url="assets/img/gallery_ivo/145 Alenka in Bostjan.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/146 Na jezerih - skala.jpg" data-lightbox="galerija-ivo" data-title="On the lakes - skala (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="On the lakes - skala"
+                            data-url="assets/img/gallery_ivo/146 Na jezerih - skala.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/147 Morje.jpg" data-lightbox="galerija-ivo" data-title="Sea (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Sea"
+                            data-url="assets/img/gallery_ivo/147 Morje.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/148 soncni zahod 2.jpg" data-lightbox="galerija-ivo" data-title="Sunset 2(40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Sunset 2"
+                            data-url="assets/img/gallery_ivo/148 soncni zahod 2.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/149 Dvorjenje divjega petelina.jpg" data-lightbox="galerija-ivo" data-title="Courtship of wild rooster (29 cm * 41 cm)">
+                    <figure class="picture"
+                            data-title="Courtship of wild rooster"
+                            data-url="assets/img/gallery_ivo/149 Dvorjenje divjega petelina.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/150 Primoz.jpg" data-lightbox="galerija-ivo" data-title="Primož (25 cm * 30 cm)">
+                    <figure class="picture"
+                            data-title="Primož"
+                            data-url="assets/img/gallery_ivo/150 Primoz.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/151 Ana.jpg" data-lightbox="galerija-ivo" data-title="Ana (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Ana"
+                            data-url="assets/img/gallery_ivo/151 Ana.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/152 Barje.jpg" data-lightbox="galerija-ivo" data-title="Bogs (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Bogs"
+                            data-url="assets/img/gallery_ivo/152 Barje.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/153 Korenine.jpg" data-lightbox="galerija-ivo" data-title="Roots (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Roots (Prisojnik)"
+                            data-url="assets/img/gallery_ivo/153 Korenine.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/154 Mlinarca.jpg" data-lightbox="galerija-ivo" data-title="Mlinarca (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Mlinarca"
+                            data-url="assets/img/gallery_ivo/154 Mlinarca.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/155 Andrejlnowa domacija.jpg" data-lightbox="galerija-ivo" data-title="Andrejlnowa homestead (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Andrejlnowa homestead (Zapoldan)"
+                            data-url="assets/img/gallery_ivo/155 Andrejlnowa domacija.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/156 Jani iz Trente.jpg" data-lightbox="galerija-ivo" data-title="Jani from Trente (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Jani from Trente"
+                            data-url="assets/img/gallery_ivo/156 Jani iz Trente.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/157 Janko Maselc.jpg" data-lightbox="galerija-ivo" data-title="Janko Maselc (40 cm * 60 cm)">
+                    <figure class="picture"
+                            data-title="Janko Maselc"
+                            data-url="assets/img/gallery_ivo/157 Janko Maselc.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/158 Stric Miha.jpg" data-lightbox="galerija-ivo" data-title="Uncle Miha (50 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Uncle Miha"
+                            data-url="assets/img/gallery_ivo/158 Stric Miha.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/159 Lojz Podskalar.jpg" data-lightbox="galerija-ivo" data-title="Lojz Podskalar (50 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Lojz Podskalar"
+                            data-url="assets/img/gallery_ivo/159 Lojz Podskalar.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/160 Jouzeva domacija.jpg" data-lightbox="galerija-ivo" data-title="Jouževa homestead (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Jouževa homestead (Zapouden)"
+                            data-url="assets/img/gallery_ivo/160 Jouzeva domacija.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/161 Pogled na Grintavec.jpg" data-lightbox="galerija-ivo" data-title="View on  Bavški Grintavec 2 (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="View on Bavški Grintavec 2"
+                            data-url="assets/img/gallery_ivo/161 Pogled na Grintavec.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/162 Valovi Soce.jpg" data-lightbox="galerija-ivo" data-title="Waves of Soča (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Waves of Soča"
+                            data-url="assets/img/gallery_ivo/162 Valovi Soce.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/163 Prisojnik.jpg" data-lightbox="galerija-ivo" data-title="Prisojnik (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Prisojnik"
+                            data-url="assets/img/gallery_ivo/163 Prisojnik.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/164 Medved.jpg" data-lightbox="galerija-ivo" data-title="Bear (25 cm * 35 cm)">
+                    <figure class="picture"
+                            data-title="Bear"
+                            data-url="assets/img/gallery_ivo/164 Medved.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/165 Merjasec.jpg" data-lightbox="galerija-ivo" data-title="Wild boar 2 (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Wild boar 2"
+                            data-url="assets/img/gallery_ivo/165 Merjasec.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/166 Ruk jelena.jpg" data-lightbox="galerija-ivo" data-title="The call of the deer (60 cm * 80 cm)">
+                    <figure class="picture"
+                            data-title="The call of the deer"
+                            data-url="assets/img/gallery_ivo/166 Ruk jelena.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/167 Gaz v snegu.jpg" data-lightbox="galerija-ivo" data-title="Trail in the snow (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Trail in the snow"
+                            data-url="assets/img/gallery_ivo/167 Gaz v snegu.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/168 Viharnik 2.jpg" data-lightbox="galerija-ivo" data-title="Storm 2 (30 cm * 40 cm)">
+                    <figure class="picture"
+                            data-title="Storm 2"
+                            data-url="assets/img/gallery_ivo/168 Viharnik 2.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/169 Sled v snegu.jpg" data-lightbox="galerija-ivo" data-title="Track in the snow (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Track in the snow"
+                            data-url="assets/img/gallery_ivo/169 Sled v snegu.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/170 Ples.jpg" data-lightbox="galerija-ivo" data-title="Dance (45 cm * 60 cm)">
+                    <figure class="picture"
+                            data-title="Dance"
+                            data-url="assets/img/gallery_ivo/170 Ples.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/171 Pricakovanje.jpg" data-lightbox="galerija-ivo" data-title="Expectation (40 cm * 50 cm)">
+                    <figure class="picture"
+                            data-title="Expectation"
+                            data-url="assets/img/gallery_ivo/171 Pricakovanje.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/172 Skusnjava.jpg" data-lightbox="galerija-ivo" data-title="Temptation (50 cm * 70 cm)">
+                    <figure class="picture"
+                            data-title="Temptation"
+                            data-url="assets/img/gallery_ivo/172 Skusnjava.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/173 Eva.jpg" data-lightbox="galerija-ivo" data-title="Eva (40 cm * 80 cm)">
+                    <figure class="picture"
+                            data-title="Eva"
+                            data-url="assets/img/gallery_ivo/173 Eva.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/174 Adam.jpg" data-lightbox="galerija-ivo" data-title="Adam (40 cm * 80 cm)">
+                    <figure class="picture"
+                            data-title="Adam"
+                            data-url="assets/img/gallery_ivo/174 Adam.jpg"> 
+                    </figure>
+                </a>
+                <a href="assets/img/gallery_ivo/175 Izvir.jpg" data-lightbox="galerija-ivo" data-title="Source (50 cm * 60 cm)">
+                    <figure class="picture"
+                            data-title="Source"
+                            data-url="assets/img/gallery_ivo/175 Izvir.jpg"> 
+                    </figure>
+                </a>
               </div>
         </div>
     </section>
@@ -84,8 +1163,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
     <script src="js/latae.js"></script>
-    <script type="text/javascript" src="js/getjsonfile.js"></script>
-
     <script>
         $(".gallery").latae({
         displayTitle: true
