@@ -176,3 +176,33 @@ display: block;
   }
 }
 
+
+.smaller-th {
+  font-size: 0.8rem; /* Adjust to your preferred size */
+}
+
+table {
+  width: 100%; /* Adjusts the width of the entire table */
+}
+
+td, th {
+  width: 100px; /* Sets a fixed width for the table cells */
+  height: 30px; /* Sets a fixed height for the table cells */
+  padding: 5px; /* Reduces the padding for smaller cells */
+}
+
+th {
+  text-align: left; /* Optional: Aligns header text to the left */
+}
+
+table {
+  width: 100%;
+  table-layout: fixed; /* Forces cells to respect width */
+}
+
+td, th {
+  width: 100px; /* Adjust width */
+  height: 30px; /* Adjust height */
+  padding: 5px;
+  word-wrap: break-word; /* Prevents long words from overflowing */
+}
