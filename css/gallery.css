@@ -1,0 +1,36 @@
+.photo-gallery {
+  color: #212529;
+  /* base text dark (was mint #47C6A3); the h2 inherits this */
+  /* Gray now lives on the #galerija <section class="... bg-light">, so the whole
+       section (header + CTA + paddings) reads as one gray band. Inner div stays
+       transparent to avoid a double/partial band. */
+  background-color: transparent;
+}
+
+.photo-gallery p {
+  color: #5a6268;
+  /* was #7d8285 (~3.9:1); #5a6268 = 6.2:1 on white, WCAG AA */
+}
+
+.photo-gallery h2 {
+  font-weight: bold;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  color: inherit;
+}
+
+@media (max-width:767px) {
+  .photo-gallery h2 {
+    margin-bottom: 25px;
+    padding-top: 25px;
+    font-size: 24px;
+  }
+}
+
+.photo-gallery .photos {
+  padding-bottom: 20px;
+}
+
+.photo-gallery .item {
+  padding-bottom: 30px;
+}
